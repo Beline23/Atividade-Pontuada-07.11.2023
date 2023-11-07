@@ -28,7 +28,7 @@ setlocale(LC_ALL,"portugues");
                 scanf("%f", &valor);
                 resultado = valor * 0.621371;
                 printf("%.2f quilômetros = a %.2f milhas.\n", valor, resultado);
-                break;
+                break; 
             case 2:
                 printf("Informe a temperatura em graus Celsius: ");
                 scanf("%f", &valor);
