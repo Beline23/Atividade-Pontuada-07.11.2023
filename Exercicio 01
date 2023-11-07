@@ -15,7 +15,7 @@ scanf("%d", &temperatura);
 if (temperatura >= 25)
 {
     printf("Temperatura superior a 25º, clima ensolarado.\n");
-}else if (temperatura <= 15 || temperatura < 25)
+}else if (temperatura >= 15 && temperatura <= 25)
 {
     printf("Temperatura entre 15Âº e 25º, o clima esta¡ nublado \n");
 }else {
